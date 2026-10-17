@@ -1,0 +1,33 @@
+name: Bug report
+description: Something in Exbound code behaves incorrectly
+labels: ["bug"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Repository and version
+      description: Which Exbound repository, and which commit or release.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs. actual
+      description: What you expected to happen, and what happened instead. Include exact error text.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction
+      description: The exact commands or steps that reproduce it, starting from a clean checkout and `just setup`.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Logs, file hashes, or sample inputs. Do not attach proprietary installers, license files, or sensitive lab data.
+    validations:
+      required: false

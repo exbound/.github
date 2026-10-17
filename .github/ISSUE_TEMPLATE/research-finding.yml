@@ -1,0 +1,53 @@
+name: Research finding
+description: A reproducible observation about a reference product or file format
+labels: ["research"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Small, independently verifiable findings beat long speculative write-ups.
+        Every claim needs the command, file, or source that produced it.
+  - type: input
+    id: target
+    attributes:
+      label: Target and version(s)
+      description: The product and the exact version(s) observed (e.g. OriginPro 2018, build 9.5).
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: The finding
+      description: One or a few specific, factual claims.
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - ESTABLISHED (cited or directly observed)
+        - HYPOTHESIS / NEEDS-OBSERVATION
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: The command, file (with hash), hexdump, citation, or reference output supporting each claim. No bare assertions.
+    validations:
+      required: true
+  - type: textarea
+    id: coverage
+    attributes:
+      label: Coverage (reference observed / implemented / verified)
+      description: Which part is observed behavior, which is implemented, which is verified. Don't report implementation as verification.
+    validations:
+      required: false
+  - type: textarea
+    id: open
+    attributes:
+      label: Open questions
+      description: What this does not establish, and what observation would settle it.
+    validations:
+      required: false
