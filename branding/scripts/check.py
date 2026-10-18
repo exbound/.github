@@ -13,7 +13,7 @@ EXPECTED = [
     "favicon.svg", "lockup.svg", "lockup-inverse.svg", "lockup-mono.svg",
     "mark-avatar.svg", "mark-avatar-512.png", "mark-avatar-1024.png",
     "apple-touch-icon-180.png", "favicon-16.png", "favicon-32.png",
-    "favicon-48.png", "favicon.ico", "lockup-1400.png",
+    "favicon-48.png", "favicon.ico", "lockup-1400.png", "lockup-inverse-1400.png",
     "social-preview.svg", "social-preview-1280x640.png",
 ]
 

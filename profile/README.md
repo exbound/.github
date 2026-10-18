@@ -1,4 +1,9 @@
-# Exbound
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/exbound/.github/main/branding/generated/lockup-inverse-1400.png" />
+    <img alt="Exbound" width="440" src="https://raw.githubusercontent.com/exbound/.github/main/branding/generated/lockup-1400.png" />
+  </picture>
+</p>
 
 Independent, compatible, open reimplementations of proprietary, abandoned, and
 monopolized scientific and engineering software.

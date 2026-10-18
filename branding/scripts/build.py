@@ -113,6 +113,7 @@ subprocess.run(
 )
 
 rasterize(OUT / "lockup.svg", "lockup-1400.png", 1400)
+rasterize(OUT / "lockup-inverse.svg", "lockup-inverse-1400.png", 1400)
 
 # --- social preview 1280x640 (graphite panel, inverse lockup) ---
 og = (
