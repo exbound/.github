@@ -58,8 +58,8 @@ You don't have to be a reverse engineer to help.
 
 Start with [CONTRIBUTING](https://github.com/exbound/.github/blob/main/CONTRIBUTING.md),
 then the research program. Propose targets and ask research questions in
-[research](https://github.com/exbound/research) — via issues now, Discussions
-soon.
+[research](https://github.com/exbound/research) — in its Discussions, or
+via issues.
 
 ## Scope
 

@@ -6,8 +6,8 @@ questions go.
 - **A bug in Exbound code** — open an issue in the repository it affects, using
   the bug template.
 - **A research question, a target nomination, or "how do I start?"** —
-  [research](https://github.com/exbound/research): its Discussions once enabled,
-  otherwise an issue there.
+  [research](https://github.com/exbound/research): its Discussions, or an issue
+  there.
 - **A security or scope concern** — follow [SECURITY](SECURITY.md); don't open a
   public issue.
 - **How to contribute** — [CONTRIBUTING](CONTRIBUTING.md), then a repository's
